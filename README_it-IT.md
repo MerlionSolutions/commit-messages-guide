@@ -6,13 +6,6 @@ Una guida per capire l'importanza dei messaggi di commit e come scriverli bene.
 
 Potrebbe aiutarti a capire cos'è un commit, perché è importante scrivere buoni messaggi, buone pratiche e alcuni consigli per pianificare e (ri)scrivere una buona storia per i commit.
 
-## Lingue disponibili
-
-- [English](README.md)
-- [Português](README_pt-BR.md)
-- [Deutsch](README_de-DE.md)
-- [Italiano](README_it-IT.md)
-
 ## Cos'è un "commit"?
 
 In termini semplici, un commit è una _fotografia_ dei file locali, scritti nel repository locale.
@@ -185,7 +178,7 @@ Per chi collabora: scrivi i messaggi dei tuoi commit rispettando la stessa lingu
 # Corretto
 ababab Aggiunge il metodo `use` al modello Credit
 efefef Usa InventoryBackendPool per recuperare il backend dell'inventario
-bebebe Fix method name of InventoryBackend child classes
+bebebe Correggi il nome del metodo delle classi figlio di InventoryBackend
 ```
 
 ```
@@ -216,7 +209,7 @@ l'oggetto dal corpo è necessaria (amenoché il corpo non sia vuoto);
 vari strumenti come `log`, `shortlog` e `rebase` possono confondersi se
 li metti insieme.
 
-Spiega il problema che questo commit risolve. Focalzizati sul perché
+Spiega il problema che questo commit risolve. Focalizzati sul perché
 stai facendo questo cambiamento al contrario di come (il codice lo
 spiega già di suo). Ci sono side-effects o altre conseguenze non
 intuitive a seguito di questo cambiamento? Questo è il posto per
@@ -424,7 +417,8 @@ Stage this hunk [y,n,q,a,d,/,K,j,J,g,e,?]?
 
 ## Altre cose interessanti
 
-https://whatthecommit.com/
+- https://whatthecommit.com/
+- https://gitmoji.carloscuesta.me/
 
 ## Ti piace?
 
